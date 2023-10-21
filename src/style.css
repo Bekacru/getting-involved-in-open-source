@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Marlin Soft";
+  src: url(../assets/MarlinSoftBasic-Regular.otf);
+}
+
+body {
+  background: url(../assets/noise-light.png);
+  background-color: #474efb;
+  color: white;
+  font-family: "Marlin Soft", sans-serif;
+}
+
+.container {
+  max-width: 44rem;
+  margin: auto;
+}
+
+p {
+  line-height: 20px;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  padding: 2px;
+  border-bottom: 2px solid whitesmoke;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: url("../assets/noise-light.png");
+  background-color: #474efb;
+}
+
+a {
+  color: whitesmoke;
+}
+
+code {
+  color: #ffbc8f;
+  border-left: 2px solid;
+  border-color: #ee8b0a;
+  padding: 0px 4px;
+  font-family: "Marlin Soft", sans-serif;
+  font-size: 14px;
+  background-color: #480a60;
+  padding: 8px;
+  line-height: 1.4;
+  max-width: max-content;
+}
+
+code .comment {
+  color: rgb(171, 169, 169);
+}
